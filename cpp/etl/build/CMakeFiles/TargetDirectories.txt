@@ -1,0 +1,3 @@
+C:/Users/orenf/exercism/cpp/etl/build/CMakeFiles/etl.dir
+C:/Users/orenf/exercism/cpp/etl/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/orenf/exercism/cpp/etl/build/CMakeFiles/ZERO_CHECK.dir

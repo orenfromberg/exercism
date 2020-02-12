@@ -1,0 +1,3 @@
+C:/Users/orenf/exercism/cpp/hamming/build/CMakeFiles/hamming.dir
+C:/Users/orenf/exercism/cpp/hamming/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/orenf/exercism/cpp/hamming/build/CMakeFiles/ZERO_CHECK.dir

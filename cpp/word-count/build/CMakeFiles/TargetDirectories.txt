@@ -1,0 +1,3 @@
+C:/Users/orenf/exercism/cpp/word-count/build/CMakeFiles/word-count.dir
+C:/Users/orenf/exercism/cpp/word-count/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/orenf/exercism/cpp/word-count/build/CMakeFiles/ZERO_CHECK.dir
