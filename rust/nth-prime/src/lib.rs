@@ -1,29 +1,13 @@
 pub fn nth(n: u32) -> u32 {
-    let mut x = 2;
-    let mut counter = 0;
+    let mut primes = Vec::<u32>::with_capacity(10_000);
+    let mut number: u32 = 2;
 
-    loop {
-        if is_prime(x) {
-            counter = counter + 1;
+    while primes.len() <= n as usize {
+        if primes.iter().all(|p| (number % *p != 0)) {
+            primes.push(number);
         }
-        if counter == n + 1 {
-            break;
-        }
-        x = x + 1;
-    }
-    x
-}
-
-fn is_prime(a: u32) -> bool {
-    if a == 2 {
-        return true
+        number += 1;
     }
 
-    let mut x = 2;
-    let mut ret = true;
-    while x < a {
-        ret = ret && (a % x != 0);
-        x = x + 1;
-    }
-    ret
+    primes[n as usize]
 }
